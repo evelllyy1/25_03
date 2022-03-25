@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./todo-ieraksts/todo-ieraksts.css"
+    />
+    <title>To-Do saraksts</title>
+    <link rel="icon" href="./icon.png" />
+  </head>
+
+  <body>
+    <h1 id="galvenais-virsraksts" class="v-raksts">To-Do Saraksts</h1>
+
+    <form id="ievad-forma">
+      <input type="text" name="teksts" value="" />
+      <button>Pievienot</button>
+    </form>
+
+    <ul id="todo-saraksts">
+      <li class="todo-ieraksts">Aiziet uz veikalu<button class ="todo-ieraksts_dzest">dzēst</button></li>
+      <li class="todo-ieraksts">Izvest ārā suni<button class ="todo-ieraksts_dzest" >dzēst</button></li>
+    </ul>
+
+    <!-- Script tags iet body elementa beigās -->
+    <script src="./todo-ieraksts/todo-ieraksts.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
